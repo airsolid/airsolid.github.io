@@ -157,7 +157,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://airsolid.github.io/2022/03/29/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Pages%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BABlog/">
+    <link itemprop="mainEntityOfPage" href="https://airsolid.github.io/posts/29483/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -171,7 +171,81 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2022/03/29/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Pages%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BABlog/" class="post-title-link" itemprop="url">如何使用Github-Pages和Hexo搭建个人Blog</a>
+            <a href="/posts/29483/" class="post-title-link" itemprop="url">2023年的上古卷轴5个人向mod推荐</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-01-11 16:19:21" itemprop="dateCreated datePublished" datetime="2023-01-11T16:19:21+08:00">2023-01-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-02-07 21:17:41" itemprop="dateModified" datetime="2023-02-07T21:17:41+08:00">2023-02-07</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>动笔时间是1月11日 大概也许能在春节前弄完吧</p>
+<p>草 我刚才想顺手保存一下结果按的是win+s 整天win+g按习惯了</p>
+<p>截至至2月7日我还是没完成。。。什么时候完成了再放别的地方</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/posts/29483/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://airsolid.github.io/posts/42676/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="空气突然凝固">
+      <meta itemprop="description" content="不定时更新。。。大概会更新吧">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="随笔记录">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/posts/42676/" class="post-title-link" itemprop="url">如何使用Github-Pages和Hexo搭建个人Blog</a>
         </h2>
 
         <div class="post-meta">
@@ -188,7 +262,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-12-12 16:55:11" itemprop="dateModified" datetime="2022-12-12T16:55:11+08:00">2022-12-12</time>
+                <time title="修改时间：2023-02-07 21:18:13" itemprop="dateModified" datetime="2023-02-07T21:18:13+08:00">2023-02-07</time>
               </span>
 
           
@@ -204,138 +278,15 @@
       
           <p>2022&#x2F;12&#x2F;12更新：把初始文档remove的同时添加了评论系统（可能需要网络支持）<br>评论使用<a target="_blank" rel="noopener" href="https://github.com/gitalk/gitalk">Gitalk</a> Next主题自带所以不讲怎么安装了<br>虽然有评论但真的有人看吗。。。</p>
 <p>才发现我这篇写完后有将近⑨个月没更新了（<br>马上就写（</p>
-<hr>
-<p>第一篇blog写自己如何搭建blog :D 边搭边写，所以可能有点混乱</p>
-<h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><ul>
-<li>Github账号（应该有吧）</li>
-<li>Git</li>
-<li><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">Node.js</a></li>
-<li><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a></li>
-</ul>
-<p>由于个人使用习惯，本文章适用于Ubuntu20.04(WSL2)</p>
-<hr>
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p><del>首先是Git <code>sudo apt install git</code></del> 提示我已经安装了。。。</p>
-<p>然后是Node.js 巨硬给了教程 <a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/windows/dev-environment/javascript/nodejs-on-wsl">在适用于 Linux 的 Windows 子系统 (WSL2) 上安装 Node.js</a></p>
-<p>这里出了点问题，我发现wsl没法用Windows的代理以至于我无法从Github上clone东西,不是curl(7)就是curl(35)</p>
-<p>但我发现，既然我的目的是搭blog，那我为什么要费力气装nvm啊</p>
-<p>以下指令来自<a target="_blank" rel="noopener" href="https://github.com/nodesource/distributions">https://github.com/nodesource/distributions</a> (这里不使用apt进行安装因为apt给的版本好像有点老)</p>
-<pre><code>$ curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash
-$ sudo apt-get install -y nodejs
-</code></pre>
-<p>解决！</p>
-<p>接下来是Hexo <code>sudo npm install -g hexo-cli</code></p>
-<p>我试了下不加sudo，提示我没权限。。。</p>
-<p>好像也可以局部安装 <code>npm install hexo</code></p>
-<hr>
-<h1 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h1><h2 id="工作环境"><a href="#工作环境" class="headerlink" title="工作环境"></a>工作环境</h2><p>在完成上述安装过程后，执行下述命令</p>
-<pre><code>$ hexo init &lt;folder&gt;
-$ cd &lt;folder&gt;
-$ npm install
-</code></pre>
-<p>新建的文件夹内有以下文件&#x2F;文件夹</p>
-<pre><code>.
-├── _config.yml //网站的配置信息
-├── package.json //应用程序的信息
-├── scaffolds //模版文件夹，后文的布局就保存在这个文件夹内
-├── source //资源文件夹
-|   ├── _drafts //我搭建的时候并没有这个文件夹
-|   └── _posts //文章的生成位置
-└── themes //主题文件夹，下载的主题要放在这里
-</code></pre>
-<p>各文件&#x2F;文件夹详细用途建议查阅Hexo官网(虽然协议是CC BY 4.0，但大量复制粘贴感觉非常怪异)</p>
-<p>接下来输入 <code>hexo g</code> ( <code>hexo generate </code>的缩写) 和 <code>hexo s</code> ( <code>hexo server</code> 的缩写) ,然后就可以在 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 上看见新搭出来的网站</p>
-<img src="/2022/03/29/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Pages%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BABlog/photo1.png" class="">
-
-<p>现在网站是创建了，但全部都是默认配置，显然不能说是个人blog，所以我打算对其进行一些美化和调整</p>
-<h2 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h2><p>主题可以在 <a target="_blank" rel="noopener" href="https://hexo.io/themes/">https://hexo.io/themes/</a> 中找到(当然也能百度)</p>
-<p>本文章使用<a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next">Next</a>示范(我的blog可能不会使用这个主题)</p>
-<pre><code>$ git clone https://github.com/theme-next/hexo-theme-next themes/next
-</code></pre>
-<p><del>啊，又是绕不过的网络问题，我去想想怎么办</del> 好吧看上去需要用一点运气(反正能连上就是成功(╹ڡ╹)</p>
-<p>接下来需要在 _config.yml 中修改一些配置来启用主题</p>
-<pre><code>themes: landscape
-替换为
-themes: next
-
-language: en
-替换为
-language: zh-CN
-</code></pre>
-<p>新界面大概长这样</p>
-<img src="/2022/03/29/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Pages%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BABlog/photo2.png" class="">
-<img src="/2022/03/29/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Pages%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BABlog/photo3.png" class="">
-<p><del>我不知道John Doe是谁</del> 根据我百度到的信息，类似于张三或者李四，反正是个无名氏</p>
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>我不怎么想写配置，毕竟 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration">https://hexo.io/zh-cn/docs/configuration</a> 讲的比我详细多了，照着这个改基本上都没什么问题</p>
-<p>themes&#x2F;next&#x2F;docs&#x2F;zh-CN 这个目录下有Next的官方文档，如果想使用搜索功能、LeanCloud或者数学公式搜索引擎之类的可以自行查看</p>
-<p>Next没有自带评论功能，所以如果想使用评论需要自己找，比如<a target="_blank" rel="noopener" href="https://github.com/gitalk/gitalk">Gitalk</a>或者<a target="_blank" rel="noopener" href="https://valine.js.org/">Valine</a>等等 先放着，过几天再写<del>然后就忘了</del></p>
-<p>还有友情链接之类的额外界面与选择的主题有关 &#x2F;&#x2F;TODO (～￣▽￣)～</p>
-<hr>
-<h1 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h1><pre><code>$ hexo new [layout] &lt;title&gt;
-</code></pre>
-<p>此命令会生成一篇布局为layout(如未指定则默认为post，当然可以在_config.yml里调)，标题为title的Markdown文件</p>
-<p>有的时候文章里可能会需要添加图片或者其他东西，首先可以把图片丢进source&#x2F;images，然后用 <code>![](/images/image.jpg)</code> 进行引用</p>
-<p>但这样会使images文件夹里面非常乱，这时可以在_config.yml中将 <code>post_asset_folder: </code> 的值修改为true，这样每次执行上面的指令之后都会生成一个同名文件夹，然后把文件丢进去就可以使用markdown语法进行调用</p>
-<p>我在写的时候发现了一个问题,图片无法正常加载，我一开始查到的资料是使用 <a target="_blank" rel="noopener" href="https://github.com/xcodebuild/hexo-asset-image">hexo-asset-image</a> ，然后发现这个插件转换的图片路径不对，会多一个&#x2F;.com&#x2F;</p>
-<p>然后我找到了一个插件 <a target="_blank" rel="noopener" href="https://github.com/cocowool/hexo-image-link">hexo-image-link</a> ，工作原理是</p>
-<pre><code>![image file label](./markdown-file-name/local-image.png) -&gt; &#123;% asset_img label local-image.png %&#125;
-</code></pre>
-<p>即在Hexo启用 <code>post_asset_folder: true</code> 选项后，将Markdown语法的图片路径转换为asset_img的方式，使图片能够在使用typora编辑和hexo预览发布时都能正常显示</p>
-<pre><code>$ npm install hexo-image-link --save
-</code></pre>
-<p>不确定是否需要 <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-renderer-marked">hexo-renderer-marked</a></p>
-<p>至于模板之类的东西。。。 &#x2F;&#x2F;TODO (。_。)</p>
-<hr>
-<h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><p>终于写到这里了，在之前的需求中提到了Github账号和Git，现在是用到这些东西的时候了</p>
-<p>Hexo配置文件中和部署相关的部分是deploy，一开始的情况是这样</p>
-<pre><code># Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: &#39;&#39;
-</code></pre>
-<p>至少要有一个type参数，比如</p>
-<pre><code>deploy:
-  type: git
-</code></pre>
-<p>当然type参数可以不止一个</p>
-<pre><code>deploy:
-- type: git
-  repo:
-- type: heroku
-  repo:
-</code></pre>
-<p>不过由于这次使用的是Github-Pages，所以只考虑Git</p>
-<p>首先打开GitHub并创建一个仓库，仓库名必须是 <code>&lt;你的用户名&gt;.github.io</code> 比如</p>
-<img src="/2022/03/29/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Pages%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BABlog/photo4.png" class="">
-
-<p>然后修改_config.yml</p>
-<pre><code># Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: 
-    github: 你的仓库地址(后面要有.git)
-  branch: master
-</code></pre>
-<p>接着安装<a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a></p>
-<pre><code>$ npm install hexo-deployer-git --save
-</code></pre>
-<p>之后进行Git账户设置，设置过的可以跳过这部分</p>
-<pre><code>$ git config --global user.email &quot;you@example.com&quot;
-$ git config --global user.name &quot;Your Name&quot;
-$ ssh-keygen -t rsa -C &quot;you@example.com&quot;
-</code></pre>
-<img src="/2022/03/29/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Pages%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BABlog/photo5.png" class="">
-<p>密码设不设置看心情</p>
-<p>在设置的目录里找到.ssh文件夹，里面有id_rsa和id_rsa.pub，复制id_rsa.pub里面的所有内容</p>
-<p>回到GitHub，选择 “Settings” -&gt; “SSH and GPG keys” -&gt; “New SSH key”，取个标题，将你复制的所有内容丢进Key里面，然后单击 “Add SSH key”</p>
-<p>最后部署到你的GitHub仓库</p>
-<pre><code>$ hexo cl &amp;&amp; hexo g &amp;&amp; hexo d
-</code></pre>
-<p>大功告成！现在可以在https:&#x2F;&#x2F;&lt;你的用户名&gt;.github.io访问新博客了</p>
-<hr>
-<p>这篇文章居然花了我两天时间</p>
-<p>第一篇blog，感觉写的挺乱</p>
-
+<p>2023&#x2F;2&#x2F;7更新：摸了。。。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/posts/42676/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -416,7 +367,7 @@ $ ssh-keygen -t rsa -C &quot;you@example.com&quot;
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -451,8 +402,8 @@ $ ssh-keygen -t rsa -C &quot;you@example.com&quot;
 
 <div class="copyright">
   
-  &copy; 
-  <span itemprop="copyrightYear">2022</span>
+  &copy; 2022 – 
+  <span itemprop="copyrightYear">2023</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
